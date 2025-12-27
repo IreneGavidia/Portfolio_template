@@ -522,3 +522,9 @@ window.cleanupAnimations = () => {
 	ScrollTrigger.getAll().forEach((trigger) => trigger.kill());
 	gsap.killTweensOf('*');
 };
+
+AOS.init({
+  duration: 800,
+  easing: 'ease-out-cubic',
+  once: true,
+});

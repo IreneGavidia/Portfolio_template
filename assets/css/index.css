@@ -123,19 +123,6 @@ h1, h2 {
 /* --------------------------------------------------------------------------
    4. Hero Section
    -------------------------------------------------------------------------- */
-/* .hero {
-	background: linear-gradient(135deg, #1a1a2e 0%, #829be0 50%, #0f3460 100%);
-}
-
-.hero-bg {
-	background: inherit;
-	z-index: 0;
-} */
-
-/* Hero con fondo GIF */
-
-
-
 
 .hero-bg {
 	position: absolute;
@@ -223,43 +210,19 @@ h1, h2 {
 	color: rgba(255,255,255,0.8);
 }
 
-
-/* Scroll indicator */
-.scroll-indicator {
-	z-index: 10;
+/* Hero buttons customization */
+.hero-cta .btn-primary {
+  background-color: #fff;
+  border-color: #fff;
+  color: #d65b45;
 }
 
-.mouse {
-	width: 26px;
-	height: 42px;
-	border: 2px solid rgba(255, 255, 255, 0.5);
-	border-radius: 13px;
-	position: relative;
+.hero-cta .btn-primary:hover {
+  background-color: #ff6f8e;
+  border-color: #fff;
+  color: #fff;
 }
 
-.mouse::after {
-	content: '';
-	position: absolute;
-	top: 8px;
-	left: 50%;
-	transform: translateX(-50%);
-	width: 4px;
-	height: 8px;
-	background: rgba(255, 255, 255, 0.7);
-	border-radius: 2px;
-	animation: scrollMouse 1.5s ease-in-out infinite;
-}
-
-@keyframes scrollMouse {
-	0%, 100% {
-		opacity: 1;
-		transform: translateX(-50%) translateY(0);
-	}
-	50% {
-		opacity: 0.3;
-		transform: translateX(-50%) translateY(12px);
-	}
-}
 
 /* --------------------------------------------------------------------------
    5. About Section
@@ -387,6 +350,8 @@ h1, h2 {
 .z-1 {
 	z-index: 1;
 }
+
+
 
 /* --------------------------------------------------------------------------
    10. Accessibility: Reduced Motion
