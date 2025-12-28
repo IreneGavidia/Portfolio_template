@@ -20,9 +20,6 @@
 	<!-- Custom Styles -->
 	<link rel="stylesheet" href="./assets/css/index.css" />
 
-    <!-- Custom Scripts -->
-	<script src="main.js" defer></script>
-
 
 </head>
 
@@ -59,14 +56,20 @@
 			<div class="hero-bg position-absolute w-100 h-100"></div>
 
 			
-			<div class="container position-relative z-1 text-center text-white">
-				<h1 class="display-1 fw-bold hero-title">Hi! I´m Irene Gavidia</h1>
-				<p class="lead hero-subtitle mb-4">Graphic Design and Web Development</p>
-				<div class="hero-cta">
-					<a href="#projects" class="btn btn-primary btn-lg me-3">View Projects</a>
-					<a href="#contact" class="btn btn-outline-light btn-lg">Get in Touch</a>
-				</div>
-			</div>
+		<div class="container position-relative z-1 text-center text-white">
+  <h1 class="display-1 fw-bold hero-title">
+    Hi! I´m Irene Gavidia
+  </h1>
+
+  <p class="lead hero-subtitle mb-4">
+    Graphic Design and Web Development
+  </p>
+
+  <div class="hero-cta">
+    <a href="#projects" class="btn btn-primary btn-lg me-3">View Projects</a>
+    <a href="#contact" class="btn btn-outline-light btn-lg">Get in Touch</a>
+  </div>
+</div>
 
 		</section>
 
@@ -96,7 +99,7 @@
 						<div class="skills mt-5">
 							<div class="skill-item gsap-reveal mb-3">
 								<div class="d-flex justify-content-between mb-2">
-									<span class="fw-semibold">Graphic Desing</span>
+									<span class="fw-semibold">Graphic Design</span>
 									<span class="text-muted">95%</span>
 								</div>
 								<div class="progress" style="height: 8px">
@@ -128,219 +131,126 @@
 		</section>
 
 		<!-- Projects Section -->
-		<section id="projects" class="py-5 py-lg-6">
-			<div class="container">
-				<div class="text-center mb-5">
-					<h2 class="display-5 fw-bold gsap-reveal">Featured Projects</h2>
-					<p class="lead text-muted gsap-reveal">A selection of my recent work</p>
-				</div>
+<section id="projects" class="py-5 py-lg-6">
+	<div class="container">
+		<div class="text-center mb-5">
+			<h2 class="display-5 fw-bold gsap-reveal">Featured Projects</h2>
+			<p class="lead text-muted gsap-reveal">A selection of my recent work</p>
+		</div>
 
-				<div class="row g-4">
-					<!-- Project Card 1 -->
-					<div class="col-md-6 col-lg-4">
-						<article class="card project-card h-100 border-0 shadow-sm">
-							<div class="card-img-wrapper overflow-hidden">
-								<img
-									src="https://ik.imagekit.io/mlays8heto/OjfajCQAxKD.png"
-									class="card-img-top"
-									alt="E-commerce Platform" />
-							</div>
-							<div class="card-body">
-								<h3 class="card-title h5">Typography Poster</h3>
-								<p class="card-text text-muted small">
-									A poster that explains the importance of typography in design. Featuring an original and unique font that I named "Cyber Edge".
-								</p>
-								<div class="d-flex flex-wrap gap-2">
-									<span class="badge bg-primary-subtle text-primary">React</span>
-									<span class="badge bg-primary-subtle text-primary">Node.js</span>
-									<span class="badge bg-primary-subtle text-primary">MongoDB</span>
-								</div>
-							</div>
-						</article>
+		<div class="row g-4">
+			<!-- Project Card -->
+			<div class="col-md-6 col-lg-4 gsap-reveal">
+				<article class="card project-card h-100 border-0 shadow-sm d-flex flex-column">
+					<div class="card-img-wrapper overflow-hidden">
+						<img src="https://ik.imagekit.io/mlays8heto/OjfajCQAxKD.png" class="card-img-top" alt="Typography Poster" />
 					</div>
-
-					<!-- Project Card 2 -->
-					<div class="col-md-6 col-lg-4">
-						<article class="card project-card h-100 border-0 shadow-sm">
-							<div class="card-img-wrapper overflow-hidden">
-								<img
-									src="https://ik.imagekit.io/mlays8heto/1nEJaT7LjQL%20(1).png"
-									class="card-img-top"
-									alt="Dashboard UI" />
-							</div>
-							<div class="card-body">
-								<h3 class="card-title h5">Vodafone Poster</h3>
-								<p class="card-text text-muted small">
-									A fictional poster for Vodafone. Promoting data offers. 
-								</p>
-								<div class="d-flex flex-wrap gap-2">
-									<span class="badge bg-primary-subtle text-primary">D3.js</span>
-									<span class="badge bg-primary-subtle text-primary">WebSocket</span>
-									<span class="badge bg-primary-subtle text-primary">GSAP</span>
-								</div>
-							</div>
-						</article>
+					<div class="card-body d-flex flex-column">
+						<h3 class="card-title h5">Typography Poster</h3>
+						<p class="card-text text-muted small">
+							A poster that explains the importance of typography in design. Featuring an original and unique font that I named "Cyber Edge".
+						</p>
+						<div class="d-flex flex-wrap gap-2 mt-auto">
+							<span class="badge bg-primary-subtle text-primary">Graphic Design</span>
+							<span class="badge bg-primary-subtle text-primary">Typography</span>
+						</div>
 					</div>
-
-					<!-- Project Card 3 -->
-					<div class="col-md-6 col-lg-4">
-						<article class="card project-card h-100 border-0 shadow-sm">
-							<div class="card-img-wrapper overflow-hidden">
-								<img
-									src="https://ik.imagekit.io/mlays8heto/3e8a7f9ebcc.png"
-									class="card-img-top"
-									alt="Mobile App" />
-							</div>
-							<div class="card-body">
-								<h3 class="card-title h5">ONDA Music App</h3>
-								<p class="card-text text-muted small">
-									Web desing of an original social media music app. Featuring a modern and intuitive interface.
-								</p>
-								<div class="d-flex flex-wrap gap-2">
-									<span class="badge bg-primary-subtle text-primary">React Native</span>
-									<span class="badge bg-primary-subtle text-primary">Firebase</span>
-								</div>
-							</div>
-						</article>
-					</div>
-
-					<!-- Project Card 4 -->
-					<div class="col-md-6 col-lg-4">
-						<article class="card project-card h-100 border-0 shadow-sm">
-							<div class="card-img-wrapper overflow-hidden">
-								<img
-									src="https://ik.imagekit.io/mlays8heto/NvDlkmv0lhX.png"
-									class="card-img-top"
-									alt="Portfolio Site" />
-							</div>
-							<div class="card-body">
-								<h3 class="card-title h5">Valentine´s with Starbucks</h3>
-								<p class="card-text text-muted small">
-									A special seasonal poster design for Starbucks with a Valentine´s day theme.
-								</p>
-								<div class="d-flex flex-wrap gap-2">
-									<span class="badge bg-primary-subtle text-primary">Three.js</span>
-									<span class="badge bg-primary-subtle text-primary">GSAP</span>
-								</div>
-							</div>
-						</article>
-					</div>
-
-					<!-- Project Card 5 -->
-					<div class="col-md-6 col-lg-4">
-						<article class="card project-card h-100 border-0 shadow-sm">
-							<div class="card-img-wrapper overflow-hidden">
-								<img
-									src="https://ik.imagekit.io/mlays8heto/Yhp1Nr8aW.png"
-									class="card-img-top"
-									alt="SaaS Platform" />
-							</div>
-							<div class="card-body">
-								<h3 class="card-title h5">Earth Day Banner</h3>
-								<p class="card-text text-muted small">
-									Celebrating Eart Day with a vibrant and eco-friendly banner design.
-								</p>
-								<div class="d-flex flex-wrap gap-2">
-									<span class="badge bg-primary-subtle text-primary">Next.js</span>
-									<span class="badge bg-primary-subtle text-primary">Prisma</span>
-								</div>
-							</div>
-						</article>
-					</div>
-
-					
-					<!-- Project Card 6 -->
-					<div class="col-md-6 col-lg-4">
-						<article class="card project-card h-100 border-0 shadow-sm">
-							<div class="card-img-wrapper overflow-hidden">
-								<img
-									src="https://ik.imagekit.io/mlays8heto/mockup%20libro%20front.png"
-									class="card-img-top"
-									alt="Mobile App" />
-							</div>
-							<div class="card-body">
-								<h3 class="card-title h5">Alice in Worderland illustration</h3>
-								<p class="card-text text-muted small">
-									Illustration and layout design fot the cover of "Alice in Wonderland" book.
-								</p>
-								<div class="d-flex flex-wrap gap-2">
-									<span class="badge bg-primary-subtle text-primary">React Native</span>
-									<span class="badge bg-primary-subtle text-primary">Firebase</span>
-								</div>
-							</div>
-						</article>
-					</div>
-
-					<!-- Project Card 7 -->
-					<div class="col-md-6 col-lg-4">
-						<article class="card project-card h-100 border-0 shadow-sm">
-							<div class="card-img-wrapper overflow-hidden">
-								<img
-									src="https://ik.imagekit.io/mlays8heto/eCJZ8tsr5pr.png"
-									class="card-img-top"
-									alt="Portfolio Site" />
-							</div>
-							<div class="card-body">
-								<h3 class="card-title h5">Nike Poster</h3>
-								<p class="card-text text-muted small">
-									Just Do It - A dynamic poster design for Nike, capturing the essence of motivation and action.
-								</p>
-								<div class="d-flex flex-wrap gap-2">
-									<span class="badge bg-primary-subtle text-primary">Three.js</span>
-									<span class="badge bg-primary-subtle text-primary">GSAP</span>
-								</div>
-							</div>
-						</article>
-					</div>
-
-					<!-- Project Card 8 -->
-					<div class="col-md-6 col-lg-4">
-						<article class="card project-card h-100 border-0 shadow-sm">
-							<div class="card-img-wrapper overflow-hidden">
-								<img
-									src="https://ik.imagekit.io/mlays8heto/EL%20OASIS%20presentaci%C3%B3n%20foto_page-0001.jpg"
-									class="card-img-top"
-									alt="SaaS Platform" />
-							</div>
-							<div class="card-body">
-								<h3 class="card-title h5">EL OASIS, a Photography Project</h3>
-								<p class="card-text text-muted small">
-									A photography project focused on capturing the beauty of nature  which provides a sense of peace and shelter.
-								</p>
-								<div class="d-flex flex-wrap gap-2">
-									<span class="badge bg-primary-subtle text-primary">Next.js</span>
-									<span class="badge bg-primary-subtle text-primary">Prisma</span>
-								</div>
-							</div>
-						</article>
-					</div>
-
-					<!-- Project Card 9 -->
-					<div class="col-md-6 col-lg-4">
-						<article class="card project-card h-100 border-0 shadow-sm">
-							<div class="card-img-wrapper overflow-hidden">
-								<img
-									src="https://ik.imagekit.io/mlays8heto/caperucita%20good%20mockup.png"
-									class="card-img-top"
-									alt="AI Tool" />
-							</div>
-							<div class="card-body">
-								<h3 class="card-title h5">Illustration for book</h3>
-								<p class="card-text text-muted small">
-									An illustration for the book "Little Red Riding Hood", capturing the essence of the classic tale, with a touck of mystery
-								</p>
-								<div class="d-flex flex-wrap gap-2">
-									<span class="badge bg-primary-subtle text-primary">OpenAI</span>
-									<span class="badge bg-primary-subtle text-primary">Python</span>
-								</div>
-							</div>
-						</article>
-
-						
-					</div>
-				</div>
+				</article>
 			</div>
-		</section>
+
+			<div class="col-md-6 col-lg-4 gsap-reveal">
+				<article class="card project-card h-100 border-0 shadow-sm d-flex flex-column">
+					<div class="card-img-wrapper overflow-hidden">
+						<img src="https://ik.imagekit.io/mlays8heto/1nEJaT7LjQL%20(1).png" class="card-img-top" alt="Vodafone Poster" />
+					</div>
+					<div class="card-body d-flex flex-column">
+						<h3 class="card-title h5">Vodafone Poster</h3>
+						<p class="card-text text-muted small">
+							A fictional poster for Vodafone. Promoting data offers.
+						</p>
+						<div class="d-flex flex-wrap gap-2 mt-auto">
+							<span class="badge bg-primary-subtle text-primary">Poster</span>
+							<span class="badge bg-primary-subtle text-primary">Branding</span>
+						</div>
+					</div>
+				</article>
+			</div>
+
+			<div class="col-md-6 col-lg-4 gsap-reveal">
+				<article class="card project-card h-100 border-0 shadow-sm d-flex flex-column">
+					<div class="card-img-wrapper overflow-hidden">
+						<img src="https://ik.imagekit.io/mlays8heto/3e8a7f9ebcc.png" class="card-img-top" alt="ONDA Music App" />
+					</div>
+					<div class="card-body d-flex flex-column">
+						<h3 class="card-title h5">ONDA Music App</h3>
+						<p class="card-text text-muted small">
+							Web design of an original social media music app. Featuring a modern and intuitive interface.
+						</p>
+						<div class="d-flex flex-wrap gap-2 mt-auto">
+							<span class="badge bg-primary-subtle text-primary">UI/UX</span>
+							<span class="badge bg-primary-subtle text-primary">App Design</span>
+						</div>
+					</div>
+				</article>
+			</div>
+
+			<div class="col-md-6 col-lg-4 gsap-reveal">
+				<article class="card project-card h-100 border-0 shadow-sm d-flex flex-column">
+					<div class="card-img-wrapper overflow-hidden">
+						<img src="https://ik.imagekit.io/mlays8heto/NvDlkmv0lhX.png" class="card-img-top" alt="Starbucks Valentine" />
+					</div>
+					<div class="card-body d-flex flex-column">
+						<h3 class="card-title h5">Valentine’s with Starbucks</h3>
+						<p class="card-text text-muted small">
+							A special seasonal poster design for Starbucks with a Valentine’s Day theme.
+						</p>
+						<div class="d-flex flex-wrap gap-2 mt-auto">
+							<span class="badge bg-primary-subtle text-primary">Campaign</span>
+							<span class="badge bg-primary-subtle text-primary">Illustration</span>
+						</div>
+					</div>
+				</article>
+			</div>
+
+			<div class="col-md-6 col-lg-4 gsap-reveal">
+				<article class="card project-card h-100 border-0 shadow-sm d-flex flex-column">
+					<div class="card-img-wrapper overflow-hidden">
+						<img src="https://ik.imagekit.io/mlays8heto/Yhp1Nr8aW.png" class="card-img-top" alt="Earth Day Banner" />
+					</div>
+					<div class="card-body d-flex flex-column">
+						<h3 class="card-title h5">Earth Day Banner</h3>
+						<p class="card-text text-muted small">
+							Celebrating Earth Day with a vibrant and eco-friendly banner design.
+						</p>
+						<div class="d-flex flex-wrap gap-2 mt-auto">
+							<span class="badge bg-primary-subtle text-primary">Banner</span>
+							<span class="badge bg-primary-subtle text-primary">Eco Design</span>
+						</div>
+					</div>
+				</article>
+			</div>
+
+			<div class="col-md-6 col-lg-4 gsap-reveal">
+				<article class="card project-card h-100 border-0 shadow-sm d-flex flex-column">
+					<div class="card-img-wrapper overflow-hidden">
+						<img src="https://ik.imagekit.io/mlays8heto/mockup%20libro%20front.png" class="card-img-top" alt="Alice Illustration" />
+					</div>
+					<div class="card-body d-flex flex-column">
+						<h3 class="card-title h5">Alice in Wonderland</h3>
+						<p class="card-text text-muted small">
+							Illustration and layout design for the cover of “Alice in Wonderland”.
+						</p>
+						<div class="d-flex flex-wrap gap-2 mt-auto">
+							<span class="badge bg-primary-subtle text-primary">Illustration</span>
+							<span class="badge bg-primary-subtle text-primary">Book Cover</span>
+						</div>
+					</div>
+				</article>
+			</div>
+		</div>
+	</div>
+</section>
+
 
 		<!-- Contact Section -->
 		<section id="contact" class="py-5 py-lg-6 bg-dark">
@@ -383,13 +293,14 @@
 	<!-- Bootstrap JS -->
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 
-	<!-- GSAP + Plugins -->
-	<script src="https://cdn.jsdelivr.net/npm/gsap@3.12/dist/gsap.min.js"></script>
-	<script src="https://cdn.jsdelivr.net/npm/gsap@3.12/dist/ScrollTrigger.min.js"></script>
-	<script src="https://cdn.jsdelivr.net/npm/gsap@3.12/dist/ScrollToPlugin.min.js"></script>
+	<!-- GSAP -->
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12/dist/ScrollTrigger.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12/dist/ScrollToPlugin.min.js"></script>
 
-	<!-- Custom Scripts -->
-	<script src="main.js"></script>
+    <!-- TU JS (AJUSTA RUTA SI ES NECESARIO) -->
+    <script src="./assets/js/main.js"></script>
+
 
 </body>
 </html>

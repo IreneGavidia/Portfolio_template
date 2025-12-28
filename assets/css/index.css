@@ -16,6 +16,12 @@
 	--color-bg-alt: #6366f1;
 	--color-muted: #6c757d;
 	--ease-out: cubic-bezier(0.22, 1, 0.36, 1);
+
+
+  --text-base: clamp(1rem, 2.5vw, 1.125rem);
+  --text-lg: clamp(1.25rem, 3vw, 1.5rem);
+  --text-xl: clamp(2rem, 6vw, 4rem);
+
 }
 
 * {
@@ -170,46 +176,6 @@ h1, h2 {
 
 
 
-
-
-.hero-title {
-	letter-spacing: -0.03em;
-}
-
-.hero-subtitle {
-	opacity: 0.8;
-}
-
-.hero-title {
-	background: linear-gradient(90deg, #ffdddd, #ffffff, #d65b45);
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
-	background-size: 200% 200%;
-	animation: gradientMove 6s ease infinite;
-	font-family: "Instrument Serif";
-	font-size: 6em;
-	z-index: 5;
-}
-
-/* @keyframes gradientMove {
-	0% { background-position: 0% 50%; }
-	50% { background-position: 100% 50%; }
-	100% { background-position: 0% 50%; }
-} */
-
-.hero-title {
-	font-family: "Instrument Serif", serif;
-    font-weight: 400;
-    font-style: italic;
-	color: #fff;
-}
-
-.hero-subtitle {
-	font-family: 'DM Sans';
-	font-size: 1em;
-	color: rgba(255,255,255,0.8);
-}
-
 /* Hero buttons customization */
 .hero-cta .btn-primary {
   background-color: #fff;
@@ -218,9 +184,25 @@ h1, h2 {
 }
 
 .hero-cta .btn-primary:hover {
-  background-color: #ff6f8e;
+  background-color: #d65b45;
   border-color: #fff;
   color: #fff;
+}
+
+.hero-title {
+  font-size: var(--text-xl);
+  font-family: "Instrument Serif", serif;
+  font-style: italic;
+  color: #fff;
+  font-size: clamp(3rem, 8vw, 5.5rem);
+  letter-spacing: -0.01em;
+}
+
+.hero-subtitle {
+  font-size: var(--text-lg);
+  font-family: 'DM Sans';
+  color: rgba(255,255,255,0.8);
+  opacity: 0.8;
 }
 
 
@@ -247,13 +229,13 @@ h1, h2 {
 
 /* Skills progress bars */
 .progress {
-	background-color:#d65b45;
+	background-color:#ccc6c6;
 	border-radius: 4px;
 	overflow: hidden;
 }
 
 .progress-bar {
-	background: linear-gradient(90deg, var(--bs-body-color), #0f1545);
+	background: linear-gradient(90deg, #d65b45, #000000);
 	border-radius: 4px;
 	width: 0; /* Animated by GSAP */
 }
@@ -261,8 +243,6 @@ h1, h2 {
 .skill-item.gsap-reveal.mb-3 {
 	color: #fff;
 }
-
-
 
 /* --------------------------------------------------------------------------
    6. Projects Section
