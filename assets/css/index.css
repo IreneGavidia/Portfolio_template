@@ -247,16 +247,22 @@ h1, h2 {
 
 /* Skills progress bars */
 .progress {
-	background-color: rgba(255, 255, 255, 0.1);
+	background-color:#d65b45;
 	border-radius: 4px;
 	overflow: hidden;
 }
 
 .progress-bar {
-	background: linear-gradient(90deg, var(--bs-primary), #818cf8);
+	background: linear-gradient(90deg, var(--bs-body-color), #0f1545);
 	border-radius: 4px;
 	width: 0; /* Animated by GSAP */
 }
+
+.skill-item.gsap-reveal.mb-3 {
+	color: #fff;
+}
+
+
 
 /* --------------------------------------------------------------------------
    6. Projects Section
@@ -326,13 +332,20 @@ h1, h2 {
 	padding: 0.75rem 2rem;
 	font-weight: 600;
 	transition: transform 0.3s, box-shadow 0.3s;
+	  background-color: #fff;
+  border-color: #fff;
+  color: #d65b45;
 }
+
 
 .btn-primary:hover {
 	background: #818cf8;
 	border-color: #818cf8;
 	transform: translateY(-2px);
 	box-shadow: 0 10px 20px rgba(99, 102, 241, 0.3);
+	  background-color: #ff6f8e;
+  border-color: #fff;
+  color: #fff;
 }
 
 .btn-outline-light {
@@ -343,6 +356,23 @@ h1, h2 {
 .btn-outline-light:hover {
 	transform: translateY(-2px);
 }
+
+.social-links :hover{
+color: white;
+}
+
+.hero-cta .btn-primary {
+  background-color: #fff;
+  border-color: #fff;
+  color: #d65b45;
+}
+
+.hero-cta .btn-primary:hover {
+  background-color: #ff6f8e;
+  border-color: #fff;
+  color: #fff;
+}
+
 
 /* --------------------------------------------------------------------------
    9. Utilities
