@@ -251,3 +251,4 @@ window.cleanupAnimations = () => {
   ScrollTrigger.getAll().forEach((t) => t.kill());
   gsap.killTweensOf('*');
 };
+

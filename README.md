@@ -5,7 +5,6 @@ You can visit mi site [https://irenegavidia.github.io/Portfolio_template/](https
 
 
 
-
 # Plan 1 — Estructura base y layout del portfolio
 
 ## Prompt a la IA
@@ -74,13 +73,11 @@ Construir una base sólida y reutilizable de portfolio, con estructura semántic
 
 
 
-
-
-
 ## Use of AI tools
 
 This project used AI assistants during planning phases only.
 Each AI interaction followed a two-step process:
 1. Planning (documented in /docs)
 2. Manual implementation and adaptation
+
 
