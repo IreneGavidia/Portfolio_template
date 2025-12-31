@@ -1,0 +1,15 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
+
+# Live Server
+.live-server/
+
+# Logs
+*.log
+
+# Node (por si en el futuro usas npm)
+node_modules/

@@ -41,6 +41,17 @@ Definir una estructura base clara y profesional para el portfolio, que permita c
 
       Un archivo JavaScript para interacciones básicas
 
+            Portfolio_template/
+      ├── assets/
+      │   ├── css/
+      │   └── js/
+      ├── docs/
+      ├── index.html
+      ├── 404.html
+      ├── README.md
+      ├── LICENSE
+      └── .gitignore
+
 
  # Estructura HTML
 
@@ -233,11 +244,19 @@ Prompt a la IA
 
       Bootstrap 5
 
-      JavaScript (ES6)
+      JavaScript 
 
       GSAP + ScrollTrigger
 
       GitHub Pages
+
+      Google Fonts
+
+
+ # License
+
+Este proyecto está bajo la licencia MIT.
+Consulta el archivo LICENSE para más información.
 
 
  # Uso de herramientas de IA
